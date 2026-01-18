@@ -1,0 +1,7 @@
+Flask
+requests
+urllib3
+cryptography
+obs-websocket-py
+pywin32
+psutil

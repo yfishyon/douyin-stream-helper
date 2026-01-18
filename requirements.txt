@@ -5,3 +5,4 @@ cryptography
 obs-websocket-py
 pywin32
 psutil
+python_hosts

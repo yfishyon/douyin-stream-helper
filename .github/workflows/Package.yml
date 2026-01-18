@@ -35,6 +35,7 @@ jobs:
             --standalone ^
             --onefile ^
             --windows-uac-admin ^
+            --assume-yes-for-downloads ^
             --output-dir=nuitka_out ^
             --output-filename=douyin-rtmp-nuitka.exe ^
             main.py

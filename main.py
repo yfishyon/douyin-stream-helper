@@ -17,6 +17,7 @@ from obs import obs_is_online, obs_set_stream_and_start
 logging.getLogger("werkzeug").disabled = True
 import flask.cli
 flask.cli.show_server_banner = lambda *args, **kwargs: None
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 OBS_HOST = "127.0.0.1"  #自己填
 OBS_PORT = 4455
